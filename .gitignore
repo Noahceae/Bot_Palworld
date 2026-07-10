@@ -1,0 +1,24 @@
+# Secrets / config locale
+.env
+.env.*
+!.env.example
+
+# Dépendances
+node_modules/
+
+# Fichier d'état du bot (ID du message édité)
+message-id.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Editeurs
+.vscode/
+.idea/

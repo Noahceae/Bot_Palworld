@@ -1,0 +1,17 @@
+{
+    "name": "palworld-status-bot",
+    "version": "1.0.0",
+    "description": "Bot Discord affichant le statut d'un serveur Palworld via un message edité en continu (sans notification).",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "discord.js": "^14.15.3",
+        "dotenv": "^16.4.5"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}
